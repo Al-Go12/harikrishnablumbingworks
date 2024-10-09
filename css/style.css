@@ -1015,6 +1015,61 @@
 /*** Travel Guide End ***/
 
 
+
+
+/* Accordion Styles */
+.accordion {
+    background-color: #3d4f61; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.accordion-item {
+    border: none; /* Remove default borders */
+    margin-bottom: 10px;
+    color: rgb(209, 57, 115);
+    /* Space between items */
+}
+
+.accordion-header {
+    background-color: yellow; /* Primary color for the header */
+    border-radius: 10px; /* Rounded corners for header */
+    
+   
+}
+
+.accordion-button {
+    font-family: "Jost",sans-serif;
+    color: #14141f; /* White text color */
+    font-weight: 500; /* Bold font */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.accordion-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    color: #e9ecef;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color:#0056b3 ; /* Keep the darker shade when expanded */
+}
+
+.accordion-body {
+    background-color: #fff; /* White background for body */
+    color: #14141f; /* Dark text color */
+    padding: 20px; /* Add some padding */
+    border-radius: 0 0 10px 10px; /* Rounded bottom corners */
+    border: 1px solid #e9ecef; /* Light border */
+}
+
+
+
+
+
+
+
+
+
 /*** Blog Start ***/
 .blog .blog-item .blog-img {
     position: relative;
